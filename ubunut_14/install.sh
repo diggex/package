@@ -7,3 +7,11 @@ sudo apt-get update
 sudo apt-get install openjdk-8-jdk
 sudo update-alternatives --config java
 sudo update-alternatives --config javac
+
+
+#handbrake
+sudo add-apt-repository ppa:stebbins/handbrake-releases
+sudo apt-get update
+sudo apt-get install handbrake-gtk
+sudo apt-get install handbrake-cli
+
